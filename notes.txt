@@ -1,0 +1,5 @@
+  584  07/23 18:51  docker build -rm -t draistrick/hobbit https://github.com/sillkongen/docker-hobbit.git
+  585  07/23 18:56  docker build -rm -t keen99/hobbit https://github.com/sillkongen/docker-hobbit.git
+docker ps
+
+
