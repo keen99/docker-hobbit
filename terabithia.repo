@@ -1,0 +1,7 @@
+[terabithia]
+name=xymon packages
+baseurl=http://terabithia.org/rpms/xymon/el6/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=http://terabithia.org/rpms/RPM-GPG-KEY-JCLEAVER
+
