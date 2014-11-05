@@ -3,3 +3,27 @@
 docker ps
 
 
+ah, to build the local tree
+docker build -rm -t keen99/hobbit .
+
+
+
+	docker run -d -p 80 <yourname>/hobbit
+
+Then find the external port exposed from the container:
+
+	docker port <container-id> 80
+
+ah:
+
+
+
+docker run -d -p 80 keen99/hobbit
+5b48832f35d8ce28ffb9b937a5306f462201158aa10657f4d324c419e11c262c
+docker port 5b48832f35d8ce28ffb9b937a5306f462201158aa10657f4d324c419e11c262c 80
+
+echo $DOCKER_HOST
+tcp://192.168.59.103:2376
+
+
+http://192.168.59.103:49153/xymon/
